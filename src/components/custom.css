@@ -1,0 +1,38 @@
+.customHeader{
+    width: 100%;
+    height: auto;
+    margin-bottom: 48px;
+    display: block;
+    overflow: auto;
+    padding-bottom: 12px;
+    border-bottom: 3px solid rgb(255, 145, 55);
+}
+.customHeader select, .customHeader .text{
+    display: inline-block;
+    margin: 16px;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 0 20px -8px;
+    font-size: 18px;
+    float: left;
+}
+.customHeader .text{
+    box-shadow: none;
+    font-size: 20px;
+    line-height: 90%;
+}
+.message{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+}
+
+@media screen and (max-width: 980px) {
+    .customHeader select, .customHeader .text{
+        margin: 8px;
+    }
+}

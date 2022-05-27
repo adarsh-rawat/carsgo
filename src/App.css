@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  width: 100%;
+}
+.header{
+  width: inherit;
+  overflow: auto;
+  position: fixed;
+  height: 60px;
+  width: -moz-available;
+  background-color: white;
+  box-shadow: 0 0 12px -6px;
+  z-index: 101;
+}
+.header .inner{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding: 10px 16px;
+  height: inherit;
+}
+.header .inner .item{
+  display:block;
+  margin: auto 24px;
+}
+.header .inner .item:nth-child(2){
+  margin: auto;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.page{
+  margin-top: 60px!important;
+  width: auto;
+  padding: 24px;
+}
+
+@media screen and (min-width: 980px) {
+  .header .menu{
+    display: none!important;
+  }
+  .page{
+    margin-left: 300px;
+  }
+  .pie_chart, .doughnut_chart, .bar_chart{
+  float: center;
+  margin: 0 auto;
+  min-width: 380px;
+  min-height: 380px;
+  max-width: 600px;
+  max-height: 600px;
+  }
+  .pie_chart, .doughnut_chart{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .custom_bar_chart{
+    margin: 0 auto;
+    min-width: 380px;
+    min-height: 450px;
+  }
+}
+@media screen and (max-width: 980px) {
+}
+
+.chartTitle{
+  margin-top: 24px;
+  margin-left: 16px;
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+}
+.chartTitle:after{
+  content: ' :-'
+}
+#sidebarbtn{  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
