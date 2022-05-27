@@ -8,7 +8,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 #importing csv data
-sale_data = pd.read_csv('new1.csv') 
+sale_data = pd.read_csv('data.csv') 
 
 @app.route("/")
 def m():
