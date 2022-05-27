@@ -5,11 +5,11 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
 <h3>To run this app:</h3>
 <ol>
   <li>1. clone this repo by using 'git clone https://github.com/adarsh-rawat/carsgo.git'</li>
-  <li>2. Then change directory to project folder by 'cd carsgo'</li>
-  <li>3. Install dependencies by 'npm install'</li>
-  <li>4. run server by changing directory 'cd flask' then 'python server.py'</li>
-  <li>5. change to parent directory by 'cd..'</li>
-  <li>6. run the app by 'npm start'</li>
+  <li>2. Then change directory to project folder by '<b>cd carsgo</b>'</li>
+  <li>3. Install dependencies by '<b>npm install</b>'</li>
+  <li>4. run server by changing directory '<b>cd flask</b>' then '<b>python server.py</b>'</li>
+  <li>5. change to parent directory by '<b>cd..</b>'</li>
+  <li>6. run the app by '<b>npm start</b>'</li>
  </ol>
  
  <h4>Caution:</h4>
