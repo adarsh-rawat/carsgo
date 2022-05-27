@@ -17,9 +17,7 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
 
 <h3> Working Screenshots</h3>
 
-
-
-![image](https://user-images.githubusercontent.com/43747987/170791685-ed96906b-57a9-4b7c-9d06-72f2ff139c57.png)
+![image](https://user-images.githubusercontent.com/43747987/170792222-c7264fcd-7d00-431b-bb5a-11dceb8098b3.png)
 
 ![image](https://user-images.githubusercontent.com/43747987/170791763-75570257-2800-4aa6-bb79-9f1ff5add43d.png)
 
