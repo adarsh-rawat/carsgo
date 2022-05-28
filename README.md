@@ -4,7 +4,7 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
 
 <h3>To run this app:</h3>
 <ol>
-  <li>clone this repo by using 'git clone https://github.com/adarsh-rawat/carsgo.git'</li>
+  <li>clone this repo by using '<b>git clone https://github.com/adarsh-rawat/carsgo.git</b>'</li>
   <li>Then change directory to project folder by '<b>cd carsgo/flask</b>'</li>
   <li>Run '<b>pip3 install -r requirements.txt</b>' to install python dependencies.</li>
   <li>Now After installation run server by '<b>python server.py</b>'</li>
