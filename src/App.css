@@ -9,7 +9,7 @@
   width: 100%;
 }
 .header{
-  width: inherit;
+  width: 100%;
   overflow: auto;
   position: fixed;
   height: 60px;
