@@ -8,7 +8,7 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
   <li>Then change directory to project folder by '<b>cd carsgo/flask</b>'</li>
   <li>Run '<b>pip3 install -r requirements.txt</b>' to install python dependencies.</li>
   <li>Now After installation run server by '<b>python server.py</b>'</li>
-  <li>Now, in another terminal, go to parent folder (carsgo) by '<b>cd..</b>' and Install react dependencies by '<b>npm install</b>'</li>
+  <li>Now, in another terminal, go to parent folder (carsgo) and Install react dependencies by '<b>npm install</b>'</li>
   <li>run the app by '<b>npm start</b>'</li>
  </ol>
  
