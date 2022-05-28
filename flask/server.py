@@ -76,9 +76,12 @@ def geo():
     fuel_type_in_top_region = new_data[new_data['Region'] == region_top]['Fuel_Type'].value_counts().head()
     fuel_type_sales = fuel_type_in_top_region.values.tolist()
 
+    brand_in_top_region = new_data[new_data['Region'] == region_top]['Make'].value_counts().head()
+    brand_sales = brand_in_top_region.values.tolist()
+
     geo_data = {
         0: {
-            'title': 'Top 5 Regions /Sales',
+            'title': 'Top 5 Regions /Sales, Best Region: {}'.format(top_regions.index[0]),
             'name': 'bar',
             'data': top_regions.tolist(),
             'labels': top_regions.index.tolist()
@@ -90,22 +93,22 @@ def geo():
             'labels': lowest_regions.index.tolist()
         },
         2: {
-            'title': 'Top 5 Regions /Sales',
+            'title': 'Top 5 Body Type /Sales in {}'.format(top_regions.index[0]),
             'name': 'pie',
             'data': body_type_sales,
             'labels': body_type_in_top_region.index.tolist()
         },
         3: {
-            'title': 'Top 5 Body Type /Sales in {}'.format(top_regions.index[0]), #gets top region's name
+            'title': 'Top 5 Fuel Type /Sales in {}'.format(top_regions.index[0]), #gets top region's name
             'name': 'doughnut',
             'data': fuel_type_sales,
             'labels': fuel_type_in_top_region.index.tolist()
         },
         4: {
-            'title': 'Top 5 Fuel Type /Sales in {}'.format(top_regions.index[0]),
-            'name': 'bar_h', #for horizontal bar chart
-            'data': top_models_sales,
-            'labels': top_models_in_top_regions
+            'title': 'Top 5 Model /Sales in {}'.format(top_regions.index[0]),
+            'name': 'bar', #for horizontal bar chart
+            'data': brand_sales,
+            'labels': brand_in_top_region.index.tolist()
         }
     }
     return geo_data
