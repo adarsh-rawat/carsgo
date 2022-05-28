@@ -131,7 +131,7 @@ def custom():
             custom_data['name'] = 'line'   #line chart will be drawn for power and torque
         else:
             custom_data['name'] = 'bar'
-        custom_data['title'] = 'Top 5 Populr {}'.format(req['field'])
+        custom_data['title'] = 'Top 5 Popular {}'.format(req['field'])
         custom_data['data'] = new_data[req['field']].value_counts().head(6).tolist()
         custom_data['labels'] = new_data[req['field']].value_counts().head(6).index.tolist()
 
