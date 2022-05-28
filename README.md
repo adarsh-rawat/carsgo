@@ -1,5 +1,4 @@
-
-Clone it from- https://github.com/adarsh-rawat/carsgo.git
+Data Analysis Web-Application for Sales Record Analysis (Automobile industry)
 
 
 <h3>To run this app:</h3>
@@ -26,3 +25,19 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
 ![image](https://user-images.githubusercontent.com/43747987/170791913-d4820f2b-49aa-4bd4-ae4b-6c1a5625610f.png)
 
 ![image](https://user-images.githubusercontent.com/43747987/170791981-dd9260e4-5365-486f-82c3-46b752bd89ce.png)
+
+<h4>Features:</h4>
+<ul>
+  <li>Can analyse millions of lines of records quickly</li>
+  <li>Also generates customized results as per user's needs</li>
+  <li>Fully responsive on all screen sizes</li>
+  <li>Generates Results in form of various Charts</li>
+  <li>Lighweight and completely GUI-based</li>
+</ul>
+<h4>Technical Stack:</h4>
+<ul>
+  <li>Frontend: ReactJS</li>
+  <li>Backend: Python Flask microframework</li>
+  <li>Data Source: CSV file</li>
+  <li>Charting: <b>React-Chartjs-2</b> library (client-side)</li>
+</ul>
