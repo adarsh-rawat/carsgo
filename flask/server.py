@@ -106,7 +106,7 @@ def geo():
         },
         4: {
             'title': 'Top 5 Brands in {}'.format(top_regions.index[0]),
-            'name': 'bar', #for horizontal bar chart
+            'name': 'bar',
             'data': brand_sales,
             'labels': brand_in_top_region.index.tolist()
         }
