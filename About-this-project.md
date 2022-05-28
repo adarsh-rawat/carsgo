@@ -1,7 +1,7 @@
 <h2>CarsGo</h2>
 Data Analysis Web-Application for Sales Record Analysis (Automobile industry)
 
-<h4>Features:</4>
+<h4>Features:</h4>
 <ul>
   <li>Can analyse millions of lines of records quickly</li>
   <li>Also generates customized results as per user's needs</li>
