@@ -5,10 +5,10 @@ Clone it from- https://github.com/adarsh-rawat/carsgo.git
 <h3>To run this app:</h3>
 <ol>
   <li>1. clone this repo by using 'git clone https://github.com/adarsh-rawat/carsgo.git'</li>
-  <li>2. Then change directory to project folder by '<b>cd carsgo</b>'</li>
-  <li>3. Install dependencies by '<b>npm install</b>'</li>
-  <li>4. run server by changing directory '<b>cd flask</b>' then '<b>python server.py</b>'</li>
-  <li>5. change to parent directory by '<b>cd..</b>'</li>
+  <li>2. Then change directory to project folder by '<b>cd carsgo/flask</b>'</li>
+  <li>3. Run '<b>pip3 install -r requirements.txt</b>' to install python dependencies.</li>
+  <li>4. Now After installation run server by '<b>python server.py</b>'</li>
+  <li>5. Now, go to parent folder (carsgo) by '<b>cd..</b>' and Install react dependencies by '<b>npm install</b>'</li>
   <li>6. run the app by '<b>npm start</b>'</li>
  </ol>
  
