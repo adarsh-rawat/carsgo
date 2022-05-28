@@ -105,7 +105,7 @@ def geo():
             'labels': fuel_type_in_top_region.index.tolist()
         },
         4: {
-            'title': 'Top 5 Model /Sales in {}'.format(top_regions.index[0]),
+            'title': 'Top 5 Brands in {}'.format(top_regions.index[0]),
             'name': 'bar', #for horizontal bar chart
             'data': brand_sales,
             'labels': brand_in_top_region.index.tolist()
