@@ -147,6 +147,7 @@ function Header(props){
                 <select name="field" id='custom-field' onChange={props.handleInput}>
                     <option value='0'>- select -</option>
                     <option value='Make'>Brand (Company)</option>
+                    <option value='Body_Type'>Body Type</option>
                     <option value='City_Mileage'>City Mileage</option>
                     <option value='Doors'>Doors</option>
                     <option value='Emission_Norm'>Emission Norm</option>
