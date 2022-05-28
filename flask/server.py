@@ -121,7 +121,7 @@ def custom():
     new_data = sale_data[sale_data["Date"] > str(dt.date(2021, 12, 31) - dt.timedelta(days=int(req['duration'])))]
     custom_data['title'] = 'Sales numbers for Top {}'.format(req['field'])
     
-    if(req['field'] in ['Doors', 'Emission_Norm', 'Fuel_Type', 'Odometer', 'Speedometer']):
+    if(req['field'] in ['Doors', 'Emission_Norm', 'Fuel_Type', 'Odometer', 'Speedometer', 'Body_Type']):
         custom_data['name'] = 'pie'
         custom_data['data'] = new_data[req['field']].value_counts().head().tolist()
         custom_data['labels'] = new_data[req['field']].value_counts().head().index.tolist()
