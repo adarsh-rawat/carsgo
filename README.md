@@ -34,7 +34,7 @@ Data Analysis Web-Application for Sales Record Analysis (Automobile industry)
   <li>Generates Results in form of various Charts</li>
   <li>Lighweight and completely GUI-based</li>
 </ul>
-<h4>Technical Stack:</h4>
+<h4>Technical Stack: </h4>
 <ul>
   <li>Frontend: ReactJS</li>
   <li>Backend: Python Flask microframework</li>
